@@ -5,7 +5,7 @@
 </head>
 <body bgcolor="FFFFFF" text="#000000">
 <font size="4">テキスト送信のテスト</font>
-<form name="form1" method="post" action="confirm.php">
+<form name="form1" method="post" action="check.php">
 
 私の趣味:<br>
 <input type="checkbox" name="hobby[]"value="スポーツ">

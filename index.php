@@ -17,5 +17,6 @@
 <input type="hidden" name="user_id" value="0001">
 </form>
 <a href="index2.php">index2へ</a>
+<a href="index3.php">index3へ</a>
 </body>
 </html>
