@@ -6,16 +6,18 @@
 <body bgcolor="FFFFFF" text="#000000">
 <font size="4">テキスト送信のテスト</font>
 <form name="form1" method="post" action="confirm.php">
+
+私の趣味:<br>
+<input type="checkbox" name="hobby[]"value="スポーツ">
+スポーツ<br>
+<input type="checkbox" name="hobby[]"value="映画鑑賞">
+映画鑑賞<br>
+<input type="checkbox" name="hobby[]"value="読書">
+読書<br>
 <br>
-名前:<br>
-<input type="text" name="onamae">
-<br>
-本文:<br>
-<textarea name="honbun" cols="30" rows="5"></textarea>
-<br>
-<input type="submit" value="送信">
-<input type="hidden" name="user_id" value="0001">
+<input type="submit" value="送 信">
+
+
 </form>
-<a href="index2.php">index2へ</a>
 </body>
 </html>
